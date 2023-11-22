@@ -12,6 +12,8 @@
 ### 1.3.绘制所有模型所有类别平均的iou=0.5、0.6、0.7、0.8、0.9
 ![all model all cagegories iou=0 5precision_recall_curve](https://github.com/ThreeStones1029/EvaluationTools/assets/121242370/78995445-8478-4056-9582-992364930851)
 
+## 2.选择特定图片选择特定类别计算AP，AR
+
 ## 二、三维
 ## 1.分割指标：Hausdorff距离（文件格式：nii.gz格式）
 
