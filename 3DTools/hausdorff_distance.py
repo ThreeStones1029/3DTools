@@ -65,9 +65,9 @@ class HausdorffDistance:
 
 
 if __name__ == "__main__":
-    gt_path = "tools/gt_and_pre/L5.nii.gz"
-    pre_path = "tools/gt_and_pre/2_img_23_prediction_resampled.nii.gz"
-    reset_coordinate_path = "tools/gt_and_pre/2_img_23_prediction_resampled_reset.nii.gz"
+    gt_path = "tools/gt_and_pre/gt.nii.gz"
+    pre_path = "tools/gt_and_pre/pre.nii.gz"
+    reset_coordinate_path = "tools/gt_and_pre/pre_reset.nii.gz"
 
     hausdorff_distance = HausdorffDistance(gt_path, pre_path, reset_coordinate_path, percentile=100).compute_hausdorff()
     print(hausdorff_distance)
